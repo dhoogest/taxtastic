@@ -508,6 +508,7 @@ class Taxonomy(object):
                 tax_id=tax_id,
                 parent_id=parent_id,
                 rank=rank,
+                is_valid=is_valid,
                 source_id=source_id))
 
         # add names. Since this is a new node, at least one name must
